@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 400px;
+  height: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #16171b;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+h1 span {
+  font-weight: normal;
+  color: #666;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.white {
+  color: white;
+}
+
+.nonwhite {
+  color: #c9c3c3d0;
+}
+
+#phone {
+  margin-top: 15px;
+  width: 95%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #000000;
+}
+
+#name {
+  margin-top: 15px;
+  width: 95%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #000000;
+}
+
+#password {
+  margin-top: 15px;
+  width: 95%;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: #000000;
+}
+
+button[type="submit"] {
+  width: 100%;
+  height: 68px;
+  padding: 10px;
+  font-size: 18px;
+  background: linear-gradient(90deg, #2a84ee 5.69%, #1ecf1e 169.72%), #5add61;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.register-link {
+  display: block;
+  margin-top: 40px;
+  font-size: 19px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.register-link:hover {
+  color: #23527c;
+}
+
+.about {
+  font-size: 22px;
+  font-weight: bold;
+  color: #b6b5b5;
+  margin-left: 45%;
+}
+
+.logo {
+  margin-left: 47.5%;
+  width: 80px;
+  color: #d8e0f4;
+}
+.about-title {
+  margin-left: 49%;
+  color: #d8e0f4;
+  margin-bottom: 0%;
+}

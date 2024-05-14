@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.chat-header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.search-bar input {
+  background-color: #333333;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  padding: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+.tabs {
+  display: flex;
+  margin-left: 40%;
+}
+
+.tab {
+  background-color: #e28181;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  margin-left: 50px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+}
+
+.chat-content {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.chat-user {
+  margin-bottom: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-weight: bold;
+  color: white;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.user-time {
+  color: #888;
+}
+
+.user-message {
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(158, 155, 155);
+  margin-bottom: 10px;
+}
+
+.chat-footer {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.chat-footer input {
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.chat-footer button {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.color1 {
+  color: yellow;
+  font-size: 10px;
+}
+.color2 {
+  color: rgb(15, 201, 24);
+  font-size: 10px;
+}
+.color3 {
+  color: rgb(29, 13, 245);
+  font-size: 10px;
+}
+.color4 {
+  color: rgb(238, 6, 168);
+  font-size: 10px;
+}
+.color6 {
+  color: cyan;
+  font-size: 10px;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.chat-bottom-bar button {
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 10px;
+  margin-left: 23%;
+}

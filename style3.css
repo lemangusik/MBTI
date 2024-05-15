@@ -1,6 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserat';
   background-color: #000000;
+}
+
+@font-face {
+  font-family: 'Montserat';
+  src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+  /* Добавьте другие форматы, если нужно (woff, ttf, etc) */
+  font-weight: normal;
+  font-style: normal;
 }
 
 .container {

@@ -106,16 +106,21 @@ button[type="submit"]:hover {
   font-size: 22px;
   font-weight: bold;
   color: #b6b5b5;
-  margin-left: 45%;
+
 }
 
 .logo {
-  margin-left: 47.5%;
   width: 80px;
   color: #d8e0f4;
 }
 .about-title {
-  margin-left: 49%;
   color: #d8e0f4;
   margin-bottom: 0%;
+}
+
+
+.LogIn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

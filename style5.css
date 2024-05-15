@@ -140,11 +140,19 @@ body {
   margin-right: 10px;
 }
 
+.chat-bottom-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .chat-bottom-bar button {
-  background-color: #444;
+  font-family: 'Montserat';
+  font-size: 10px;
+  color: #57595F;
+  background: none;
   border: none;
   border-radius: 5px;
-  color: #fff;
   padding: 5px 10px;
-  margin-left: 23%;
+  margin: auto 8px;
 }

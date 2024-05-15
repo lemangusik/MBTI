@@ -36,7 +36,7 @@ header h1 {
 }
 
 main {
-  height: 1080px;
+  height: 700px;
   background-color: #040606;
   display: flex;
   justify-content: center;
@@ -127,12 +127,13 @@ footer {
 
 .hero-options-container {
   position: absolute;
-  top: 390px;
+  top: 400px;
   width: 427px;
   background: #0F0F12;
   height: 56px;
   border-radius: 20px;
   overflow: hidden;
+
 }
 
 .hoc-childs {
@@ -145,7 +146,7 @@ footer {
   color: white;
   font-family: 'Montserat';
   justify-items: start;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .hoc-childs p:nth-child(2) {
@@ -153,7 +154,7 @@ footer {
   font-size: 13px;
   color: #ACADB1;
   font-family: 'Montserat';
-  margin-left: 40px;
+  margin-left: 100px;
   margin-top: 17px;
   margin-bottom: 0px;
 }
@@ -162,7 +163,7 @@ footer {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 460px;
+  top: 470px;
 }
 
 .button-black {
@@ -192,14 +193,15 @@ footer {
   text-align: center;
 }
 
-.button-blue p:nth-child(1){
+.button-blue p:nth-child(1) {
   color: white;
   font-family: 'Montserat';
   font-size: 16px;
   margin-top: 16px;
   margin-bottom: 0px;
 }
-.button-blue p:nth-child(2){
+
+.button-blue p:nth-child(2) {
   color: #B9E2FF;
   ;
   font-family: 'Montserat';
@@ -208,13 +210,55 @@ footer {
 }
 
 
-.hero-publish-list{
+.hero-publish-list {
   position: absolute;
-  top: 545px;
+  top: 565px;
   width: 427px;
   background: #0F0F12;
   height: 56px;
   border-radius: 20px;
   overflow: hidden;
   height: 256px;
+}
+
+.hero-publish-list div {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-publish-list p:nth-child(1) {
+  color: white;
+  font-family: 'Montserat';
+  justify-items: center;
+  margin-left: 15px;
+}
+
+span {
+  margin: auto 270px;
+  justify-items: end;
+}
+
+.hero-publish-list p:nth-child(2) {
+  color: white;
+  font-family: 'Montserat';
+  justify-items: center;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+
+.chat-bottom-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.chat-bottom-bar button {
+  font-family: 'Montserat';
+  font-size: 10px;
+  color: #57595F;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: auto 8px;
 }

@@ -182,8 +182,8 @@ align-items: end;
 
 .chat-bottom-bar button {
   font-family: 'Montserat';
-  font-size: 10px;
-  color: #57595F;
+  font-size: 13px;
+  color: white;
   background: none;
   border: none;
   border-radius: 5px;
@@ -191,7 +191,7 @@ align-items: end;
   margin: auto 8px;
 }
 
-i {
+.search-bar i {
   position: absolute;
   right: 30px;
   top: 22px;
@@ -208,3 +208,36 @@ i {
 p{
   color: white;
 }
+.chat-bottom-bar img{
+  margin: auto 38px;
+}
+.chat-bottom-bar img:hover{
+  margin: auto 38px;
+  opacity: 0.4;
+  -webkit-filter: hue-rotate(20deg);
+  filter: hue-rotate(20deg);
+
+}
+.chat-bottom-bar img:nth-child(2){
+  margin: auto 30px 0px 25px;
+}
+
+.chat-bottom-bar button:active{
+  opacity: 0.4;
+  -webkit-filter: hue-rotate(20deg);
+  filter: hue-rotate(20deg);
+}
+
+
+
+.chat-content button{
+  position: absolute;
+  top: 530px;
+  right: 25px;
+  border: none;
+  background: linear-gradient(90deg, #2a84ee 5.69%, #1ecf1e 169.72%), #5add61;;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+

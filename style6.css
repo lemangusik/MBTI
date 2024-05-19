@@ -254,8 +254,8 @@ span {
 
 .chat-bottom-bar button {
   font-family: 'Montserat';
-  font-size: 10px;
-  color: #57595F;
+  font-size: 13px;
+  color: white;
   background: none;
   border: none;
   border-radius: 5px;
@@ -269,4 +269,24 @@ header span{
   font-size: 2rem;
   margin-left: 350px;;
   margin-right: 0px;
+}
+
+.chat-bottom-bar img{
+  margin: auto 38px;
+}
+.chat-bottom-bar img:hover{
+  margin: auto 38px;
+  opacity: 0.4;
+  -webkit-filter: hue-rotate(20deg);
+  filter: hue-rotate(20deg);
+
+}
+.chat-bottom-bar img:nth-child(2){
+  margin: auto 30px 0px 25px;
+}
+
+.chat-bottom-bar button:active{
+  opacity: 0.4;
+  -webkit-filter: hue-rotate(20deg);
+  filter: hue-rotate(20deg);
 }

@@ -250,6 +250,7 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-right: 20px;
 }
 
 .chat-bottom-bar button {
@@ -289,4 +290,12 @@ header span{
   opacity: 0.4;
   -webkit-filter: hue-rotate(20deg);
   filter: hue-rotate(20deg);
+}
+
+footer {
+  position:fixed;
+
+  bottom:0px;
+  height:60px;
+  width:100%;
 }

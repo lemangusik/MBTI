@@ -48,7 +48,7 @@ body {
 
 .tabs div:nth-child(1){
   margin: 5px auto;
-  background-color: #e28181;
+  background-color: #992d2d;
   border: none;
   border-radius: 15px;
   color: #fff;
@@ -178,6 +178,7 @@ align-items: end;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-right: 20px;
 }
 
 .chat-bottom-bar button {
@@ -232,7 +233,7 @@ p{
 
 .chat-content button{
   position: absolute;
-  top: 530px;
+  top: 480px;
   right: 25px;
   border: none;
   background: linear-gradient(90deg, #2a84ee 5.69%, #1ecf1e 169.72%), #5add61;;
@@ -241,3 +242,11 @@ p{
   height: 50px;
 }
 
+
+footer {
+  position:fixed;
+background-color: black;
+  bottom:0px;
+  height:80px;
+  width:100%;
+}
